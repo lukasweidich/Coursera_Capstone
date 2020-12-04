@@ -1,0 +1,48 @@
+\input{Inhalt/00_Latex/praeambel}
+\usepackage{ifthen}
+\newboolean{e-Abgabe}
+\setboolean{e-Abgabe}{false}
+
+\newcommand{\titel}{Using Foursquare and eBay to analyze computer hardware sellers in my area}
+\newcommand{\titelheader}{Applied Data Science Capstone Project}
+\newcommand{\autor}{Lukas Weidich}
+
+\input{Inhalt/00_Latex/kopfundFusszeile}
+
+\newcommand{\code}[1]{\texttt{#1}}
+
+\addto\captionsenglish{
+	\renewcommand{\contentsname}
+	{Contents}
+}
+
+\begin{document}
+\setlength{\parindent}{0pt}
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{1}
+\sffamily   
+                            
+\singlespacing
+\include{Inhalt/01_Standard/titelseite}  
+\newcounter{savepage}
+\pagenumbering{Roman}                    
+\onehalfspacing
+
+\singlespacing
+\tableofcontents
+
+\cleardoublepage
+\pagenumbering{arabic}                  % Arabische Seitenzahlen für den Hauptteil
+\setlength{\parskip}{0.5\baselineskip}  % Abstand zwischen Absätzen
+\rmfamily
+\renewcommand*{\chapterpagestyle}{scrheadings}
+\pagestyle{scrheadings}
+\onehalfspacing
+
+\include{Inhalt/03_Inhalt/Introduction.tex}
+\include{Inhalt/03_Inhalt/Data.tex}
+\include{Inhalt/03_Inhalt/Methodology.tex}
+\include{Inhalt/03_Inhalt/Results.tex}
+\include{Inhalt/03_Inhalt/Discussion.tex}
+\include{Inhalt/03_Inhalt/Conclusion.tex}
+\end{document}

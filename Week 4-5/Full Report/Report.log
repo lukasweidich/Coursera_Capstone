@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.5)  4 DEC 2020 16:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.5)  5 DEC 2020 17:22
 entering extended mode
 **./Report.tex
 (Report.tex
@@ -1959,6 +1959,11 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 10.
 Package tocbasic Info: Using my definition of `\numberline' on input line 11.
 Package tocbasic Info: Using my definition of `\numberline' on input line 12.
 Package tocbasic Info: Using my definition of `\numberline' on input line 13.
+Package tocbasic Info: Using my definition of `\numberline' on input line 16.
+Package tocbasic Info: Using my definition of `\numberline' on input line 18.
+Package tocbasic Info: Using my definition of `\numberline' on input line 20.
+Package tocbasic Info: Using my definition of `\numberline' on input line 21.
+Package tocbasic Info: Using my definition of `\numberline' on input line 22.
 )
 \tf@toc=\write6
 \openout6 = `Report.toc'.
@@ -1996,17 +2001,69 @@ chapter 2.
 
  (Inhalt/03_Inhalt/Methodology.tex
 chapter 3.
-) [3
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
+.
+(C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<Bilder/Foursquare.PNG, id=84, 583.42969pt x 194.22563pt>
+File: Bilder/Foursquare.PNG Graphic file (type png)
+<use Bilder/Foursquare.PNG>
+Package pdftex.def Info: Bilder/Foursquare.PNG  used on input line 16.
+(pdftex.def)             Requested size: 449.55371pt x 149.66087pt.
+<Bilder/Foursquare_Map.PNG, id=86, 686.565pt x 440.39531pt>
+File: Bilder/Foursquare_Map.PNG Graphic file (type png)
+<use Bilder/Foursquare_Map.PNG>
+Package pdftex.def Info: Bilder/Foursquare_Map.PNG  used on input line 20.
+(pdftex.def)             Requested size: 449.55371pt x 288.3636pt.
+ [3
 
 
 
 
 ]
+<Bilder/eBay.PNG, id=92, 623.32875pt x 375.65344pt>
+File: Bilder/eBay.PNG Graphic file (type png)
+<use Bilder/eBay.PNG>
+Package pdftex.def Info: Bilder/eBay.PNG  used on input line 24.
+(pdftex.def)             Requested size: 449.55371pt x 270.92882pt.
+
+[4 <./Bilder/Foursquare.PNG> <./Bilder/Foursquare_Map.PNG>]
+<Bilder/Foursquare_preprocessed.PNG, id=102, 806.26219pt x 447.92343pt>
+File: Bilder/Foursquare_preprocessed.PNG Graphic file (type png)
+<use Bilder/Foursquare_preprocessed.PNG>
+Package pdftex.def Info: Bilder/Foursquare_preprocessed.PNG  used on input line
+ 33.
+(pdftex.def)             Requested size: 449.55371pt x 249.74867pt.
+ [5 <./Bilder/eBay.PNG>]
+<Bilder/eBay_preprocessed.PNG, id=114, 718.93594pt x 185.94469pt>
+File: Bilder/eBay_preprocessed.PNG Graphic file (type png)
+<use Bilder/eBay_preprocessed.PNG>
+Package pdftex.def Info: Bilder/eBay_preprocessed.PNG  used on input line 40.
+(pdftex.def)             Requested size: 449.55371pt x 116.2747pt.
+<Bilder/eBay_Map.PNG, id=115, 737.75626pt x 464.4853pt>
+File: Bilder/eBay_Map.PNG Graphic file (type png)
+<use Bilder/eBay_Map.PNG>
+Package pdftex.def Info: Bilder/eBay_Map.PNG  used on input line 44.
+(pdftex.def)             Requested size: 449.55371pt x 283.03087pt.
+ [6 <./Bilder/Foursquare_preprocessed.PNG> <./Bilder/eBay_preprocessed.PNG>]
+<Bilder/general_findings.PNG, id=125, 714.41907pt x 298.11375pt>
+File: Bilder/general_findings.PNG Graphic file (type png)
+<use Bilder/general_findings.PNG>
+Package pdftex.def Info: Bilder/general_findings.PNG  used on input line 54.
+(pdftex.def)             Requested size: 449.55371pt x 187.58975pt.
+ [7 <./Bilder/eBay_Map.PNG>]
+<Bilder/combined_map.PNG, id=133, 854.44218pt x 524.71031pt>
+File: Bilder/combined_map.PNG Graphic file (type png)
+<use Bilder/combined_map.PNG>
+Package pdftex.def Info: Bilder/combined_map.PNG  used on input line 59.
+(pdftex.def)             Requested size: 449.55371pt x 276.0695pt.
+ [8 <./Bilder/general_findings.PNG> <./Bilder/combined_map.PNG>]) [9]
 \openout2 = `Inhalt/03_Inhalt/Results.aux'.
 
  (Inhalt/03_Inhalt/Results.tex
 chapter 4.
-) [4
+) [10
 
 
 
@@ -2016,7 +2073,7 @@ chapter 4.
 
  (Inhalt/03_Inhalt/Discussion.tex
 chapter 5.
-) [5
+) [11
 
 
 
@@ -2026,7 +2083,7 @@ chapter 5.
 
  (Inhalt/03_Inhalt/Conclusion.tex
 chapter 6.
-) [6
+) [12
 
 
 
@@ -2042,22 +2099,26 @@ Package logreq Info: Writing requests to 'Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42562 strings out of 480257
- 854615 string characters out of 2881439
- 1774392 words of memory out of 3000000
- 58259 multiletter control sequences out of 15000+200000
- 589623 words of font info for 97 fonts, out of 3000000 for 9000
+ 42824 strings out of 480257
+ 859721 string characters out of 2881439
+ 1776436 words of memory out of 3000000
+ 58434 multiletter control sequences out of 15000+200000
+ 628323 words of font info for 147 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,19n,109p,10693b,1975s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C
-:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:
-/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:
-/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:
-/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:
-/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Report.pdf (8 pages, 146511 bytes).
+ 98i,20n,109p,10693b,1975s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
+:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/U
+sers/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Us
+ers/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Use
+rs/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users
+/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/l
+ukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/l
+ukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/l
+ukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/l
+ukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on Report.pdf (14 pages, 3840101 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 18629 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 252 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 30485 words of extra memory for PDF output out of 35830 (max. 10000000)
 

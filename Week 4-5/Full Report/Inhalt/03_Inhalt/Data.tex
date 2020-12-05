@@ -1,8 +1,8 @@
 \chapter{Data}
 I will use two different datasets to gain more insights into the questions I posed above. One will be Foursquare, which was introduced during the course. The other data will be provided by eBay. I will download the eBay data and load the file from my local directory, so I do not need to expose my credentials within the coding. The Forsquare data however will be fetched within the code cells.
 \section{Foursquare}
-Foursquare will provide general information about professional sellers and businesses offering computer hardware in my area. I will use the location (longitude, latitude, city name) to cluster the data. Additionally, the entries are visualized by being shown on a map. Besides the given columns, I will also one hot encode the type of business (professional or private), depending on the entry itself.
+Foursquare will provide general information about professional sellers and businesses offering computers in my area. I will use the location (longitude, latitude, city name) to cluster the data. Additionally, the entries are visualized by being shown on a map. Besides the given columns, I will also one hot encode the type of business (professional or private), depending on the entry itself.
 \section{eBay}
 By making use of the eBay API, I can access and filter all eBay listings near me that are currently active. Similar to the Foursquare data, I am mainly interested in the location of the seller, the sellers name and whether the seller is a private person or a professional business.
 \section{Additional information}
-Of course, I will use the same search radius for both API calls, so I have a completely comparable dataset to work with. Unfortunately, the Foursquare call is limited to 200 results.
+Of course, I will use the same search radius for both API calls, so I have a completely comparable dataset to work with. However, the Foursquare call is limited to 200 results.

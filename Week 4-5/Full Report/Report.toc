@@ -8,8 +8,17 @@
 \contentsline {section}{\numberline {2.2}eBay}{2}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Additional information}{2}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Methodology}{3}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Results}{4}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Discussion}{5}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusion}{6}{chapter.6}%
+\contentsline {section}{\numberline {3.1}Retrieving the data}{3}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Handling missing information and combining the two datasets}{3}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Exploratory data analysis}{7}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Statistical key figures and indicators}{7}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Visualizing entries using a map}{8}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Inferential statistical testing}{9}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Similarity between data sources}{9}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.5}Machine learning}{9}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Clustering entries}{9}{subsection.3.5.1}%
+\contentsline {chapter}{\numberline {4}Results}{10}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Discussion}{11}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusion}{12}{chapter.6}%
 \contentsfinish 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

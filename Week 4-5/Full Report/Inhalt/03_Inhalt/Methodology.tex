@@ -60,7 +60,45 @@ To begin with some basic operations after creating a combined dataset, I describ
 	\caption{Visualization of dataset}
 \end{figure}
 This is what the map looks like when both sources are considered. Foursquare entries are colored red, eBay ones are blue.
-\section{Inferential statistical testing}
-\subsection{Similarity between data sources}
 \section{Machine learning}
-\subsection{Clustering entries}
+Next, I will use the dataset to demonstrate the KNN algorithm. I want to cluster my entries by the state they are based in. KNN will be trained with the coordinates of the entries as independent variable. The target value therefore is the state of the entries.
+\subsection{Clustering entries using KNN}
+To set up KNN, the data first needs to be split by seperating independent and dependent variables.
+\subsubsection{Display Columns}
+To begin with and to get a feeling for the data I am working with, I chose to display the available columns within my dataset.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{Bilder/display_columns.PNG}
+	\caption{Columns of dataset}
+\end{figure}
+Because in my case, the state is dependent of the coordinates, the only three coordinates will be Latitude, Longitude and State. The first two being the independent variable, the latter being the target value that depends on the first two. So for the next step, choose X and y accordingly.
+\subsubsection{Select columns for X and y}
+As explained, X will contain Latitude and Longitude, whereas y will consist of the state.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{Bilder/select_columns.PNG}
+	\caption{Selecting columns for KNN}
+\end{figure}
+Note that the coordinates are not standardized yet, and therefore need to be preprocessed. As of now, y also contains categorical data. The data will be hot encoded in the next step.
+\subsubsection{Preprocess X and y}
+Data Standardization give data zero mean and unit variance, it is good practice, especially for algorithms such as KNN which is based on distance of cases. Therefore, I begin with scaling X as in the course example.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{Bilder/preprocess_columns.PNG}
+	\caption{Preprocessing X and y}
+\end{figure}
+Additionaly, I also one hot encoded the categorical state value. Note that there are states which are further away than 100km. This is because of the geocoder api and will be explained in chapter \ref{discussion}.
+\subsubsection{Define test and train set}
+Next, the data will be split into train and test set.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{Bilder/define_test_train.PNG}
+	\caption{Test Train Split}
+\end{figure}
+\subsubsection{Begin classification}
+With the test and train set in hand, I can now find most accurate k for KNN. In the plot below, ks from 0 to 100 were tested.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{Bilder/finding_best_k.PNG}
+	\caption{Finding best k for KNN}
+\end{figure}
+0 and 6 were the most accurate. I will continue using k=6 in the following steps when making the prediction and once again comparing the accuracy.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{Bilder/predict_state.PNG}
+	\caption{Predicting state based on coordinates and accuracy}
+\end{figure}

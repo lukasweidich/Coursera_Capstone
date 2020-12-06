@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.5)  5 DEC 2020 17:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.5)  6 DEC 2020 12:10
 entering extended mode
 **./Report.tex
 (Report.tex
@@ -1960,10 +1960,7 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 11.
 Package tocbasic Info: Using my definition of `\numberline' on input line 12.
 Package tocbasic Info: Using my definition of `\numberline' on input line 13.
 Package tocbasic Info: Using my definition of `\numberline' on input line 16.
-Package tocbasic Info: Using my definition of `\numberline' on input line 18.
-Package tocbasic Info: Using my definition of `\numberline' on input line 20.
-Package tocbasic Info: Using my definition of `\numberline' on input line 21.
-Package tocbasic Info: Using my definition of `\numberline' on input line 22.
+Package tocbasic Info: Using my definition of `\numberline' on input line 23.
 )
 \tf@toc=\write6
 \openout6 = `Report.toc'.
@@ -2006,12 +2003,12 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
 (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<Bilder/Foursquare.PNG, id=84, 583.42969pt x 194.22563pt>
+<Bilder/Foursquare.PNG, id=78, 583.42969pt x 194.22563pt>
 File: Bilder/Foursquare.PNG Graphic file (type png)
 <use Bilder/Foursquare.PNG>
 Package pdftex.def Info: Bilder/Foursquare.PNG  used on input line 16.
 (pdftex.def)             Requested size: 449.55371pt x 149.66087pt.
-<Bilder/Foursquare_Map.PNG, id=86, 686.565pt x 440.39531pt>
+<Bilder/Foursquare_Map.PNG, id=80, 686.565pt x 440.39531pt>
 File: Bilder/Foursquare_Map.PNG Graphic file (type png)
 <use Bilder/Foursquare_Map.PNG>
 Package pdftex.def Info: Bilder/Foursquare_Map.PNG  used on input line 20.
@@ -2022,48 +2019,84 @@ Package pdftex.def Info: Bilder/Foursquare_Map.PNG  used on input line 20.
 
 
 ]
-<Bilder/eBay.PNG, id=92, 623.32875pt x 375.65344pt>
+<Bilder/eBay.PNG, id=86, 623.32875pt x 375.65344pt>
 File: Bilder/eBay.PNG Graphic file (type png)
 <use Bilder/eBay.PNG>
 Package pdftex.def Info: Bilder/eBay.PNG  used on input line 24.
 (pdftex.def)             Requested size: 449.55371pt x 270.92882pt.
 
 [4 <./Bilder/Foursquare.PNG> <./Bilder/Foursquare_Map.PNG>]
-<Bilder/Foursquare_preprocessed.PNG, id=102, 806.26219pt x 447.92343pt>
+<Bilder/Foursquare_preprocessed.PNG, id=96, 806.26219pt x 447.92343pt>
 File: Bilder/Foursquare_preprocessed.PNG Graphic file (type png)
 <use Bilder/Foursquare_preprocessed.PNG>
 Package pdftex.def Info: Bilder/Foursquare_preprocessed.PNG  used on input line
  33.
 (pdftex.def)             Requested size: 449.55371pt x 249.74867pt.
  [5 <./Bilder/eBay.PNG>]
-<Bilder/eBay_preprocessed.PNG, id=114, 718.93594pt x 185.94469pt>
+<Bilder/eBay_preprocessed.PNG, id=108, 718.93594pt x 185.94469pt>
 File: Bilder/eBay_preprocessed.PNG Graphic file (type png)
 <use Bilder/eBay_preprocessed.PNG>
 Package pdftex.def Info: Bilder/eBay_preprocessed.PNG  used on input line 40.
 (pdftex.def)             Requested size: 449.55371pt x 116.2747pt.
-<Bilder/eBay_Map.PNG, id=115, 737.75626pt x 464.4853pt>
+<Bilder/eBay_Map.PNG, id=109, 737.75626pt x 464.4853pt>
 File: Bilder/eBay_Map.PNG Graphic file (type png)
 <use Bilder/eBay_Map.PNG>
 Package pdftex.def Info: Bilder/eBay_Map.PNG  used on input line 44.
 (pdftex.def)             Requested size: 449.55371pt x 283.03087pt.
  [6 <./Bilder/Foursquare_preprocessed.PNG> <./Bilder/eBay_preprocessed.PNG>]
-<Bilder/general_findings.PNG, id=125, 714.41907pt x 298.11375pt>
+<Bilder/general_findings.PNG, id=119, 714.41907pt x 298.11375pt>
 File: Bilder/general_findings.PNG Graphic file (type png)
 <use Bilder/general_findings.PNG>
 Package pdftex.def Info: Bilder/general_findings.PNG  used on input line 54.
 (pdftex.def)             Requested size: 449.55371pt x 187.58975pt.
  [7 <./Bilder/eBay_Map.PNG>]
-<Bilder/combined_map.PNG, id=133, 854.44218pt x 524.71031pt>
+<Bilder/combined_map.PNG, id=127, 854.44218pt x 524.71031pt>
 File: Bilder/combined_map.PNG Graphic file (type png)
 <use Bilder/combined_map.PNG>
 Package pdftex.def Info: Bilder/combined_map.PNG  used on input line 59.
 (pdftex.def)             Requested size: 449.55371pt x 276.0695pt.
- [8 <./Bilder/general_findings.PNG> <./Bilder/combined_map.PNG>]) [9]
+ [8 <./Bilder/general_findings.PNG> <./Bilder/combined_map.PNG>]
+<Bilder/display_columns.PNG, id=137, 599.23875pt x 98.61844pt>
+File: Bilder/display_columns.PNG Graphic file (type png)
+<use Bilder/display_columns.PNG>
+Package pdftex.def Info: Bilder/display_columns.PNG  used on input line 70.
+(pdftex.def)             Requested size: 449.55371pt x 73.9862pt.
+<Bilder/select_columns.PNG, id=138, 611.28375pt x 319.1925pt>
+File: Bilder/select_columns.PNG Graphic file (type png)
+<use Bilder/select_columns.PNG>
+Package pdftex.def Info: Bilder/select_columns.PNG  used on input line 77.
+(pdftex.def)             Requested size: 449.55371pt x 234.74246pt.
+ [9 <./Bilder/display_columns.PNG>]
+<Bilder/preprocess_columns.PNG, id=148, 818.30719pt x 462.97969pt>
+File: Bilder/preprocess_columns.PNG Graphic file (type png)
+<use Bilder/preprocess_columns.PNG>
+Package pdftex.def Info: Bilder/preprocess_columns.PNG  used on input line 84.
+(pdftex.def)             Requested size: 449.55371pt x 254.34996pt.
+ [10 <./Bilder/select_columns.PNG>]
+<Bilder/define_test_train.PNG, id=160, 662.475pt x 145.29282pt>
+File: Bilder/define_test_train.PNG Graphic file (type png)
+<use Bilder/define_test_train.PNG>
+Package pdftex.def Info: Bilder/define_test_train.PNG  used on input line 91.
+(pdftex.def)             Requested size: 449.55371pt x 98.59383pt.
+<Bilder/finding_best_k.PNG, id=161, 540.51938pt x 269.50688pt>
+File: Bilder/finding_best_k.PNG Graphic file (type png)
+<use Bilder/finding_best_k.PNG>
+Package pdftex.def Info: Bilder/finding_best_k.PNG  used on input line 97.
+(pdftex.def)             Requested size: 449.55371pt x 224.15533pt.
+ [11 <./Bilder/preprocess_columns.PNG> <./Bilder/define_test_train.PNG>]
+<Bilder/predict_state.PNG, id=173, 641.39626pt x 505.13719pt>
+File: Bilder/predict_state.PNG Graphic file (type png)
+<use Bilder/predict_state.PNG>
+Package pdftex.def Info: Bilder/predict_state.PNG  used on input line 102.
+(pdftex.def)             Requested size: 449.55371pt x 354.05609pt.
+)
+[12 <./Bilder/finding_best_k.PNG>] [13 <./Bilder/predict_state.PNG>]
 \openout2 = `Inhalt/03_Inhalt/Results.aux'.
 
- (Inhalt/03_Inhalt/Results.tex
+
+(Inhalt/03_Inhalt/Results.tex
 chapter 4.
-) [10
+) [14
 
 
 
@@ -2071,24 +2104,11 @@ chapter 4.
 ]
 \openout2 = `Inhalt/03_Inhalt/Discussion.aux'.
 
- (Inhalt/03_Inhalt/Discussion.tex
-chapter 5.
-) [11
-
-
-
-
-]
+ (Inhalt/03_Inhalt/Discussion.tex)
 \openout2 = `Inhalt/03_Inhalt/Conclusion.aux'.
 
- (Inhalt/03_Inhalt/Conclusion.tex
-chapter 6.
-) [12
-
-
-
-
-] (Report.aux (Inhalt/01_Standard/titelseite.aux)
+ (Inhalt/03_Inhalt/Conclusion.tex)
+(Report.aux (Inhalt/01_Standard/titelseite.aux)
 (Inhalt/03_Inhalt/Introduction.aux) (Inhalt/03_Inhalt/Data.aux)
 (Inhalt/03_Inhalt/Methodology.aux) (Inhalt/03_Inhalt/Results.aux)
 (Inhalt/03_Inhalt/Discussion.aux) (Inhalt/03_Inhalt/Conclusion.aux))
@@ -2099,11 +2119,11 @@ Package logreq Info: Writing requests to 'Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42824 strings out of 480257
- 859721 string characters out of 2881439
- 1776436 words of memory out of 3000000
- 58434 multiletter control sequences out of 15000+200000
- 628323 words of font info for 147 fonts, out of 3000000 for 9000
+ 42900 strings out of 480257
+ 861564 string characters out of 2881439
+ 1775522 words of memory out of 3000000
+ 58472 multiletter control sequences out of 15000+200000
+ 629142 words of font info for 156 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,20n,109p,10693b,1975s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
@@ -2116,9 +2136,9 @@ ukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/l
 ukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/l
 ukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/l
 ukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Report.pdf (14 pages, 3840101 bytes).
+Output written on Report.pdf (16 pages, 3951673 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
- 30485 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 275 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 30491 words of extra memory for PDF output out of 35830 (max. 10000000)
 
